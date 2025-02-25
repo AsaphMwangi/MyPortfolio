@@ -13,3 +13,11 @@
     height: 90vh;
    
 }
+@media (max-width:519px)
+{
+    #contact_form
+    {
+        width: 95%;
+    }
+
+}
