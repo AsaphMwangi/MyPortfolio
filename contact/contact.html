@@ -30,26 +30,45 @@
                  <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
              </svg>
             
-            <!--
-            <div>
-             <ul id="side_bar_menu">
-                 <svg xmlns="http://www.w3.org/2000/svg" 
-                     height="24px" 
+              <!-- Sidebar -->
+              <div id="sidebar_container">
+                <svg 
+                    id="close_btn"                    
+                    xmlns="http://www.w3.org/2000/svg" 
+                     height="30px" 
                      viewBox="0 -960 960 960" 
-                     width="24px" fill="#ffffff">
+                     width="30px" fill="#ffffff">
                      <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
                  </svg>
-                 <li class="side_bar_list"><a href="#" class="side_bar_menu_links">HOME</a></li>
-                 <li class="side_bar_list"><a href="#" class="side_bar_menu_links">PROJECTS</a></li>
-                 <li class="side_bar_list"><a href="#" class="side_bar_menu_links">PRODUCTS</a></li>
-                 <li class="side_bar_list"><a href="#" class="side_bar_menu_links">CONTACTS</a></li>
+             <ul id="sidebar_menu">
+                 
+                 <li class="sidebar_list"><a href="../index.html" class="sidebar_menu_links">HOME</a></li>
+                 <li class="sidebar_list"><a href="#" class="sidebar_menu_links">PROJECTS</a></li>
+                 <li class="sidebar_list"><a href="#" class="sidebar_menu_links">PRODUCTS</a></li>
+                 <li class="sidebar_list"><a href="contact.html" class="sidebar_menu_links">CONTACTS</a></li>
                  
                 </ul>
             </div>
-        -->
          </nav>
          
     </div>
-    
+    <script>
+        //Function to open and close the sidebar
+        const sidebar = document.getElementById("sidebar_container"); 
+        const menu_button = document.getElementById("menu_btn");
+        const close_button = document.getElementById("close_btn");       
+        const side_bar = document.getElementById("sidebar_container");
+        menu_button.addEventListener("click", () =>{
+            
+            side_bar.style.display = "block";
+            menu_button.style.display = "none";
+        });
+        close_button.addEventListener("click", () =>{
+            
+            side_bar.style.display = "none";
+            menu_button.style.display = "block";
+        });
+
+    </script>
 </body>
 </html>

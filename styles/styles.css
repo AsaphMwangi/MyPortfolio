@@ -40,6 +40,7 @@ nav
     left: 0;
     right: 0;
     width: 100vw;
+    height: 60px;
 }
 #main_menu
 {
@@ -76,11 +77,53 @@ nav
 #menu_btn
 {
     cursor: pointer;
-    
+    display:none;
 }
 #menu_btn:hover
 {
     background-color:grey;
+}
+#close_btn
+{
+    
+    cursor: pointer;
+}
+#close_btn:hover
+{
+    
+    background-color: grey;
+}
+#sidebar_container
+{
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 60px;
+    text-align: end;
+    padding: 20px;
+    padding-top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#sidebar_menu
+{
+    list-style: none;
+    text-align: left;
+
+}
+.sidebar_list
+{
+    padding-bottom: 10px;
+}
+.sidebar_menu_links
+{
+    text-decoration: none;
+    color: white;
+   
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1rem;
 }
 #intro_paragraph_container
 {
@@ -137,6 +180,10 @@ nav
     {
         display: none;
 
+    }
+    #menu_btn
+    {
+        display: block;
     }
     #intro_paragraph_container
     {
