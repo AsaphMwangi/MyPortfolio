@@ -35,6 +35,8 @@ nav
     justify-content: space-between;    
     background-color: rgba(0, 0, 0, 0.5);
     align-items: center;
+    position: absolute;
+    width: 100vw;
 }
 #main_menu
 {
@@ -86,9 +88,9 @@ nav
     font-weight: 500;
     font-style: normal;
     color: white;
-    font-size: 1em;  
+    font-size: 4em;  
     -webkit-text-stroke: .7px black; 
-    text-align: end;
+    text-align: center;
     padding-top: 5rem;
     
   
