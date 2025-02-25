@@ -64,15 +64,20 @@ nav
 }
 .main_menu_links:hover
 {
-    color: green;
+    color: red;
 }
 .main_menu_links:active
 {
-    color: #D40E0E;
+    color: greenyellow;
 }
 #menu_btn
 {
+    cursor: pointer;
     
+}
+#menu_btn:hover
+{
+    background-color:grey;
 }
 #intro_paragraph_container
 {
@@ -91,7 +96,7 @@ nav
     font-weight: 500;
     font-style: normal;
     color: white;
-    font-size: 3em;  
+    font-size: 4em;  
     -webkit-text-stroke: .7px black; 
     text-align: center;
     padding-top: 5rem;  
