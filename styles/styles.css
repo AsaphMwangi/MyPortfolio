@@ -77,7 +77,10 @@ nav
 #intro_paragraph_container
 {
     width: 100vw;
-   
+    height: 100vh;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
    
     
 }
@@ -91,7 +94,7 @@ nav
     font-size: 4em;  
     -webkit-text-stroke: .7px black; 
     text-align: center;
-    padding-top: 5rem;
+    padding-top: 5rem;  
     
   
 }
