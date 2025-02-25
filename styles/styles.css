@@ -133,5 +133,11 @@ nav
     #main_menu
     {
         display: none;
+
     }
+    #intro_paragraph_container
+    {
+        height: 90vh;
+    }
+
 }
