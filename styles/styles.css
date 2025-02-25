@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    
+}
+#intro
+{
+    background-image: url("../images/main_page_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    height: 100vh;
+    margin: 0;
+    
+}
+#logo
+{
+    width: 45px;
+    height: 40px;
+    align-items: center;
+    
+}
+/*
+Navigation Section
+*/
+nav
+{    
+    display: flex;
+    justify-content: space-between;    
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+}
+#main_menu
+{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    
+       
+}
+.main_menu_list
+{
+    margin: 20px;
+}
+.main_menu_links
+{
+    text-decoration: none;
+    color: white;
+   
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1rem;
+
+}
+.main_menu_links:hover
+{
+    color: green;
+}
+.main_menu_links:active
+{
+    color: #D40E0E;
+}
+#menu_btn
+{
+    
+}
+#intro_paragraph_container
+{
+    width: 100vw;
+   
+   
+    
+}
+#intro_paragraph
+{
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    font-size: 1em;  
+    -webkit-text-stroke: .7px black; 
+    text-align: end;
+    padding-top: 5rem;
+    
+  
+}
+#products_button
+{
+    padding: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;    
+    background-color: #D40E0E;
+    border-radius: 1rem;
+    color: white;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+   
+}
+#products_button:hover
+{
+    background-color: green;
+    cursor:pointer;
+}
+#products_button_link
+{
+    text-decoration: none;
+    text-align: center;
+    
+}
+@media (max-width:519px)
+{
+    #main_menu
+    {
+        display: none;
+    }
+}
