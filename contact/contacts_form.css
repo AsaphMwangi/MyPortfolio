@@ -5,7 +5,7 @@
     align-items: center;
     height: 100vh;
     width: 100vw;
-    margin-top: -30px;
+    
 
 }
 #contact_form
@@ -23,6 +23,12 @@
 {
     height: 40px;
     border-radius: 1rem;
+    padding: 10px;
+    font-size: 1.1rem;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 .input_label
 {
@@ -32,6 +38,12 @@
 .text_area
 {
     border-radius: 1rem;
+    padding: 10px;
+    font-size: 1.1rem;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 #submit
 {
