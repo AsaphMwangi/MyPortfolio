@@ -198,5 +198,29 @@ nav
     {
         height: 90vh;
     }
+    #intro_paragraph
+    {
+        font-size: 3rem;
+    }
+
+
+}
+@media (max-width:400px)
+{
+    #intro_paragraph
+    {
+        font-size: 2rem;
+    }
+}
+@media (max-width:200px)
+{
+    #intro_paragraph
+    {
+        font-size: 1.5rem;
+    }
+    #products_button
+    {
+        font-size: 0.9rem;
+    }
 
 }
