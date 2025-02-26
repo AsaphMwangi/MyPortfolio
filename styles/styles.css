@@ -10,7 +10,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: scroll;
+    background-origin: padding-box;
 }
 #intro
 {
@@ -35,11 +35,8 @@ nav
     justify-content: space-between;    
     background-color: rgba(0, 0, 0, 0.7);
     align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100vw;
+   
+    
     height: 60px;
 }
 #main_menu
