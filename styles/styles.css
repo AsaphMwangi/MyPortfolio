@@ -133,6 +133,7 @@ nav
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
    
     
 }
@@ -148,6 +149,7 @@ nav
     text-align: center;
     padding-top: 5rem;  
     
+    
   
 }
 #products_button
@@ -162,7 +164,10 @@ nav
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-   
+    font-size: 1.1rem;
+    width: 15%;
+    
+    
 }
 #products_button:hover
 {
@@ -171,9 +176,12 @@ nav
 }
 #products_button_link
 {
-    text-decoration: none;
-    text-align: center;
-    
+    text-decoration: none;    
+     
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
 }
 @media (max-width:519px)
 {
