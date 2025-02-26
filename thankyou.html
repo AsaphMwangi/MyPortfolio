@@ -3,25 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="contacts_form.css">
-    <link rel="stylesheet" href="../styles/styles.css">
-    <title>Contacts</title>
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Asaph
+    </title>
 </head>
 <body>
     <div id="intro">
         <nav id="menu_item">
-            <a href="index.html"><img src="../images/logo.png" alt="logo" id="logo"></a>
+            <a href="index.html"><img src="images/logo.png" alt="logo" id="logo"></a>
             <ul id="main_menu">
                 
-             <li class="main_menu_list"><a href="../index.html" class="main_menu_links">HOME</a></li>
+             <li class="main_menu_list"><a href="index.html" class="main_menu_links">HOME</a></li>
              <li class="main_menu_list"><a href="#" class="main_menu_links">PROJECTS</a></li>
              <li class="main_menu_list"><a href="#" class="main_menu_links">PRODUCTS</a></li>
-             <li class="main_menu_list"><a href="contact.html" class="main_menu_links">CONTACTS</a></li>
+             <li class="main_menu_list"><a href="contact/contact.html" class="main_menu_links">CONTACTS</a></li>
             
             </ul>
                         
              <svg 
-                id="menu_btn"
+                id="menu_btn"                
                 xmlns="http://www.w3.org/2000/svg" 
                  height="45px"
                  viewBox="0 -960 960 960" 
@@ -30,8 +34,8 @@
                  <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
              </svg>
             
-              <!-- Sidebar -->
-              <div id="sidebar_container">
+            <!-- Sidebar -->
+            <div id="sidebar_container">
                 <svg 
                     id="close_btn"                    
                     xmlns="http://www.w3.org/2000/svg" 
@@ -42,36 +46,30 @@
                  </svg>
              <ul id="sidebar_menu">
                  
-                 <li class="sidebar_list"><a href="../index.html" class="sidebar_menu_links">HOME</a></li>
+                 <li class="sidebar_list"><a href="index.html" class="sidebar_menu_links">HOME</a></li>
                  <li class="sidebar_list"><a href="#" class="sidebar_menu_links">PROJECTS</a></li>
                  <li class="sidebar_list"><a href="#" class="sidebar_menu_links">PRODUCTS</a></li>
-                 <li class="sidebar_list"><a href="contact.html" class="sidebar_menu_links">CONTACTS</a></li>
+                 <li class="sidebar_list"><a href="contact/contact.html" class="sidebar_menu_links">CONTACTS</a></li>
                  
                 </ul>
             </div>
+    
          </nav>
-         <div id="form_container">
-            <form action="https://formsubmit.co/694b370e99b5eb9a7c1c9f678d49e07d" method="post" id="contact_form">
-                <label class="input_label" for="full_name">Full Name</label>
-              
-                <input class="form_input" type="text" name="full_name" id="full_name">
-                
-                <label class="input_label" for="email">Email</label>
-                
-                <input class="form_input" type="email" name="email" id="user_email">
-                
-                <label class="input_label" for="message">Message</label>
-                
-                <textarea class="text_area"  id="message" name="message" rows="7" ></textarea>
-                <input type="hidden" name="_next" value="https://asaphmwangi.online/thankyou.html">
-                <input type="hidden" name="_subject" value="New Query">
-                <input type="hidden" name="_blacklist" value="spammy pattern, banned term, phrase">
-                <button id="submit" type="submit">Submit</button>
-            </form>
-
+         <div id="intro_paragraph_container">
+            <p id="intro_paragraph">
+                Thank you for your submission<br> I aim to get back to you in <br>24hrs                
+            
+            </p>
+            
+            <a href="#" id="products_button_link">
+                <button id="products_button">
+                    Get a quote
+                </button>
+                </a>
          </div>
     </div>
-
+    
+   
     <script>
         //Function to open and close the sidebar
         const sidebar = document.getElementById("sidebar_container"); 
@@ -90,5 +88,6 @@
         });
 
     </script>
+   
 </body>
 </html>
