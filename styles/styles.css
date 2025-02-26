@@ -10,7 +10,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-origin: padding-box;
+    
 }
 #intro
 {
@@ -35,7 +35,6 @@ nav
     justify-content: space-between;    
     background-color: rgba(0, 0, 0, 0.7);
     align-items: center;
-   
     
     height: 60px;
 }
@@ -124,14 +123,12 @@ nav
     font-size: 1rem;
 }
 #intro_paragraph_container
-{
-    width: 100vw;
-    height: 100vh;    
+{     
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-   
+  
     
 }
 #intro_paragraph
