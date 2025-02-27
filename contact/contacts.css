@@ -29,7 +29,7 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.8);
     transition: 10ms ease-in;
 }
 .form_input:hover
@@ -41,6 +41,7 @@
 {
     color: white;
     font-size: 1.5rem;
+    
 }
 .text_area
 {
