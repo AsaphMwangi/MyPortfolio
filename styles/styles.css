@@ -35,7 +35,10 @@ nav
     justify-content: space-between;    
     background-color: rgba(0, 0, 0, 0.7);
     align-items: center;
-    
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
     height: 60px;
 }
 #main_menu
@@ -217,4 +220,11 @@ nav
         font-size: 0.9rem;
     }
 
+}
+@media (min-width:519px)
+{
+    nav
+    {
+        position: relative;
+    }
 }
