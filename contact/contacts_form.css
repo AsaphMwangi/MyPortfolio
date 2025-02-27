@@ -21,9 +21,9 @@
 }
 .form_input
 {
-    height: 40px;
+    height: 30px;
     border-radius: 1rem;
-    padding: 10px;
+    padding: 5px;
     font-size: 1.1rem;
     font-family: "Inter", serif;
     font-optical-sizing: auto;
