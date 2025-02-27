@@ -77,6 +77,11 @@
     background-color: green;
     font-style: italic;
 }
+#loading
+{
+    display: none;
+   
+}
 @media (max-width:519px)
 {
     #contact_form
