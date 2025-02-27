@@ -17,9 +17,4 @@
             close_button.style.display = "none"
         });
 
-        if(device_width >= 519)
-        {
-            side_bar.style.display = "none";
-            menu_button.style.display = "none";
-            close_button.style.display = "none"
-        }
+        
