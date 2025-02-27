@@ -61,7 +61,7 @@
 }
 #submit
 {
-    height: 40px;
+    height: 45px;
     width: 50%;
     left: 25%;
     right: 25%;
@@ -86,6 +86,7 @@
     #submit
     {
         margin-top: 15px;
+        
     }
 
 }
