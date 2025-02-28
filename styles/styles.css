@@ -173,10 +173,8 @@ nav
 }
 #products_button_link
 {
-    text-decoration: none;    
-     
+    text-decoration: none;       
     display: flex;
-    width: 100%;
     justify-content: center;
     margin-top: 10px;
 }
