@@ -29,14 +29,7 @@
                 }
         });
 
-        let width = window.innerWidth;
-
-        if(width>519)
-        {
-            side_bar.style.display = "none";
-            menu_button.style.display = "none";
-            close_button.style.display = "none"
-        }
+       
         
         
       
