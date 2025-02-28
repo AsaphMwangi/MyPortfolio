@@ -113,11 +113,11 @@ nav
 }
 .sidebar_list
 {
-    padding-bottom: 10px;
+    padding-top: 10px;
 }
 .sidebar_menu_links
 {
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
    
     font-family: "Inter", serif;
