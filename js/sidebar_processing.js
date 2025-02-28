@@ -5,7 +5,7 @@
         const side_bar = document.getElementById("sidebar_container");
         const device_width = window.innerWidth;
         const paragraph_container = document.getElementById("intro_paragraph_container");
-        menu_button.style.display = "none";
+       
 
         menu_button.addEventListener("click", () =>{
             
@@ -28,6 +28,16 @@
                     close_button.style.display = "none"
                 }
         });
+
+        let width = window.innerWidth;
+
+        if(width>519)
+        {
+            side_bar.style.display = "none";
+            menu_button.style.display = "none";
+            close_button.style.display = "none"
+        }
+        
         
       
 
