@@ -5,7 +5,7 @@
         const side_bar = document.getElementById("sidebar_container");
         const device_width = window.innerWidth;
         const paragraph_container = document.getElementById("intro_paragraph_container");
-        
+        menu_button.style.display = "none";
 
         menu_button.addEventListener("click", () =>{
             
