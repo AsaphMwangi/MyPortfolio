@@ -23,12 +23,8 @@
         paragraph_container.addEventListener("click", ()=>{
             if(!side_bar.contains(event.target))
                 {
-                    if(device_width<519)
-                    {
-                        menu_button.style.display = "block";
-                    }
                     side_bar.style.display = "none";
-                    
+                    menu_button.style.display = "block";
                     close_button.style.display = "none"
                 }
         });
