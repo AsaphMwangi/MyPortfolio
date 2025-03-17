@@ -36,8 +36,7 @@ nav
     display: flex;
     justify-content: space-between;    
     background-color: white;
-    align-items: center;
-    margin: 1%;
+    align-items: center;    
     padding: 5px;
     border: none;    
     box-shadow: 0px 2.5px 5px 2.5px rgba(0, 0, 0, 0.8);
